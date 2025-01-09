@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb://localhost:27017/auth_db")
+  .connect("mongodb+srv://jainaditya1510:kuchSimpleYrr@authdb.4k3hr.mongodb.net/?retryWrites=true&w=majority&appName=authdb")
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
